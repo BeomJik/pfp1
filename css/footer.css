@@ -1,0 +1,297 @@
+footer{  
+	background: #ddd;
+}
+footer::before{
+  content: "";
+  width: 100%;
+  height: 5px;
+  display: block;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #c6c6c6), color-stop(1, #dadada));
+	background: -moz-linear-gradient(top, #c6c6c6 0%, #dadada 100%);
+	background: -webkit-linear-gradient(top,  #c6c6c6 0%, #dadada 100%);
+	background: -o-linear-gradient(top,  #c6c6c6 0%, #dadada 100%);
+	background: -ms-linear-gradient(top,  #c6c6c6 0%, #dadada 100%);
+	background: linear-gradient(top,  #c6c6c6 0%, #dadada 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6c6c6', endColorstr='#dadada', gradientType=0);
+}
+footer #top {    
+	margin: 50px 0 70px;
+}
+footer #top .wrap {
+  
+}
+footer #top h2 {    
+	font-size: 30px;
+	font-weight: 500;
+	margin: 20px 0;
+}
+footer #top ul {    
+	display: flex;
+	gap: 15px;
+	height: 250px;
+}
+footer #top li {
+	background-color: #fff;
+	width: 25%;
+	height: 100%;
+}
+footer #top li a {
+    
+}
+footer #top li:nth-child(1) a::before{
+	content: "";
+	background-image:url(../img/hd_footer1.jpg);
+	width: 100%;
+	height: 59%;
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+footer #top li:nth-child(2) a::before{
+	content: "";
+	background-image:url(../img/hd_footer2.png);
+	width: 100%;
+	height: 60%;
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+footer #top li:nth-child(3) a::before{
+	content: "";
+	background-image:url(../img/hd_footer3.jpg);
+	width: 100%;
+	height: 60%;
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+footer #top li:nth-child(4) a::before{
+	content: "";
+	background-image:url(../img/hd_footer4.png);
+	width: 100%;
+	height: 60%;
+	display: block;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+footer #top li a h3 {    
+	padding: 10px 25px 20px 25px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.6;
+}
+footer #top li a p.date {  
+	padding: 0 20px;
+	font-size: 13px;
+	font-weight: 300;
+}
+footer #top li a p.date em {   
+	padding: 0 10px;
+}
+footer #bottom {    
+	background-color: #333333;
+	color: #fff;
+	padding: 50px 0;
+}
+footer #bottom div.wrap {
+    
+}
+footer #bottom div.top {
+    
+}
+footer #bottom div.top ul.fnb {   
+	display: flex;
+	float: left;
+	gap: 15px;
+}
+footer #bottom div.top ul.fnb li {
+    
+}
+footer #bottom div.top ul.fnb li:nth-child(n+2)::before{
+	content: "";
+	background-color: #ccc;
+	width: 1px;
+	height: 10px;
+	display: inline-block;
+	margin-right: 7px;
+	margin-left: -7px;
+}
+footer #bottom div.top ul.fnb li a {    
+	color: #fcfcfc;
+	font-size: 14px;
+	font-weight: 100;
+}
+footer #bottom div.top ul.fnb li a:hover{
+	text-decoration: underline;
+}
+footer #bottom div.top ul.fnb li:nth-child(2) a{
+	font-weight: 500;
+	color: #fff;
+}
+footer #bottom div.top ul.lang {    
+	float: left;
+	display: flex;
+	margin-left: 10px;
+}
+footer #bottom div.top ul.lang li {
+    
+}
+footer #bottom div.top ul.lang li a {    
+	font-size: 14px;
+	color: #ddd;
+	font-weight: 300;
+}
+footer #bottom div.top ul.lang li a:hover{
+	border-bottom: 1px solid #fff;
+}
+footer #bottom div.top ul.lang li:nth-child(1) a{
+	color: #fff;
+	font-weight: 500;
+	margin-right: 5px;
+}
+footer #bottom div.top ul.lang li:nth-child(2) a::before{
+	content: "";
+	width: 1px;
+	height: 10px;
+	display: inline-block;
+	background-color: #eee;
+	transform: rotate(10deg);
+	margin-right: 5px;
+	margin-left: 3px;
+}
+footer #bottom div.top select {    
+	float: right;
+	color: #fff;
+	border: 1px solid #eee;
+	background-color: transparent;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+}
+footer #bottom div.top p.copy {   
+	clear: both;
+	color: #fcfcfc;
+	font-size: 13px;
+	font-weight: 300;
+}
+footer #bottom div.bottom {
+    
+	margin: 30px 0;
+}
+footer #bottom div.bottom ul.sns {
+    
+	display: flex;
+	float: left;
+	gap: 10px;
+}
+footer #bottom div.bottom ul.sns li {
+    
+}
+footer #bottom div.bottom ul.sns li a {
+    
+	color: #fff;
+	font-size: 0;
+}
+footer #bottom div.bottom ul.sns li:nth-child(1) a{
+	background-image: url(../img/facebook.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(2) a{
+	background-image: url(../img/facebook.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(3) a{
+	background-image: url(../img/twitter.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(4) a{
+	background-image: url(../img/instagram.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(5) a{
+	background-image: url(../img/youtube.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(6) a{
+	background-image: url(../img/b.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(7) a{
+	background-image: url(../img/p.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(8) a{
+	background-image: url(../img/play.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}footer #bottom div.bottom ul.sns li:nth-child(9) a{
+	background-image: url(../img/play2.png);
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-size: 100%;
+}
+footer #bottom div.bottom ul.sns li:nth-child(10) a{
+	background-image: url(../img/l.png);
+	width: 28px;
+	height: 28px;
+	display: block;
+	background-size: 70%;
+	border-radius: 15px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 1px solid #000;
+	margin-top: 1px;
+}
+footer #bottom div.icon {
+
+	float: right;
+}
+footer #bottom div.icon ul {   
+	display: flex;
+	justify-content: end;
+}
+footer #bottom div.icon ul li {    
+	font-size: 0;
+	margin-top: -20px;
+	margin-right: 10px;
+}
+footer #bottom div.icon ul li a {    
+	font-size: 0;
+}
+footer #bottom div.icon ul li:nth-child(1) a{
+	background-image:url(../img/footer_ri1.png);
+	width: 56px;
+	height: 56px;
+	display: block;
+	margin-right: 10px;
+}
+footer #bottom div.icon ul li:nth-child(2){
+	background-image:url(../img/footer_ri2.png);
+	width: 56px;
+	height: 56px;
+	display: block;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pfp1-현대자동차그룹 홈페이지</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/commom.css" type="text/css">
+    <link rel="stylesheet" href="css/header.css" type="text/css">
+    <link rel="stylesheet" href="css/title.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+
+    <!-- 슬릭 css -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- JS cdn -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"> </script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- 슬릭 JS --> 
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // 밑 줄
+            $("main hgroup h2:eq(0)").addClass("currentH2");
+            $("main hgroup h2").click(function(){
+                $(this).addClass("currentH2");
+                $(this).siblings().removeClass("currentH2");
+            });
+            $("#title ul.np li:eq(0)").addClass("currentNp");
+            $("#title ul.np li").click(function(){
+                $(this).addClass("currentNp");
+                $(this).siblings().removeClass("currentNp");
+            });
+
+            // 슬릭
+            $(".slide").slick({
+                dots: true,
+                infinite: true
+            })
+
+        });
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="wrap">
+            <div class="logoarea">
+                <p class="jr"><a href="">HMG JOURNAL</a></p>
+                <h1 class="h1"><a href="">HYUNDAI</a></h1>
+                <p class="search"><a href="">검색</a></p>
+                <p class="tv"><a href="">HMG TV</a></p>
+            </div>
+        </div>
+        <div class="bg">
+            <ul class="gnb">
+                <li><a href="">그룹소개</a></li>
+                <li><a href="">그룹사</a></li>
+                <li><a href="">기술혁신</a></li>
+                <li><a href="">전략투자</a></li>
+                <li><a href="">지속가능경영</a></li>
+                <li><a href="">인재채용</a></li>
+                <li><a href="">뉴스</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title">
+        <div class="wrap">
+            <ul class="slide">
+                <li class="t1">
+                    <h2 class="h2">미래를 향한 연결, 기술혁신</h2>
+                    <p class="p">미래 혁신 트랜드 분석과 기술 개발을 통해<span class="block"></span>미래 모빌리티를 선도합니다</p>
+                    <a href="" class="more">자세히보기</a>
+                </li>
+                <li class="t2">
+                    <h2 class="h2">미래를 향한 연결, 기술혁신</h2>
+                    <p class="p">미래 혁신 트랜드 분석과 기술 개발을 통해<span class="block"></span>미래 모빌리티를 선도합니다</p>
+                    <a href="" class="more">자세히보기</a>
+                </li> 
+                <li class="t3">
+                    <h2 class="h2">미래를 향한 연결, 기술혁신</h2>
+                    <p class="p">미래 혁신 트랜드 분석과 기술 개발을 통해<span class="block"></span>미래 모빌리티를 선도합니다</p>
+                    <a href="" class="more">자세히보기</a>
+                </li> 
+                <li class="t4">
+                    <h2 class="h2">미래를 향한 연결, 기술혁신</h2>
+                    <p class="p">미래 혁신 트랜드 분석과 기술 개발을 통해<span class="block"></span>미래 모빌리티를 선도합니다</p>
+                    <a href="" class="more">자세히보기</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 내용영역 -->
+    <main>
+        <section id="news">
+            <div class="wrap">
+                <!-- 미래를 향한 도약  -->
+                <hgroup class="hgroup"> 
+                    <h2 class="h2">미래를 향한 도약</h2>
+                    <h2 class="h2">세상에 전하는 행복</h2>
+                </hgroup>
+                <!-- 경영, 기술, 전략  -->
+                <div class="do"> 
+                    <ul class="pu">
+                        <li>
+                            <a href="">
+                                <p class="p"><strong>경영이념</strong><br>창의적 사고와 끝없는 도전을 통해 새로운 미래를<span class="block"></span>창조함으로써 인류사회의 꿈을 실현합니다.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="p"><strong>기술혁신</strong><br>트랜드 분석과 기술개발을 통해<span class="block">미래 모빌리티를 선도합니다.</span></p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <p class="p"><strong>전략투자</strong><br>신규사업의 기회 발굴 및 신기술 확보를 통해<span class="block">미래 가치를 만들어 냅니다.</span></p>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- 보도자료  -->
+                    <ul class="news"> 
+                        <li>
+                            <a href="">
+                                <h4 class="h3">현대자동차그룹, 택시운행정보 자동연계 시스템 공동개발</h3>
+                                <p class="p">- 올해 국내 출시예정인 EV 택시전용 모델에 택시운행정보 자동연계 시스템 탑재</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h4 class="h4">美 PGA 투어 ‘2022 제네시스 인비테이셔널’ 개막</h4>
+                                <p class="p">- 17~20일, 美 리비에라 컨트리 클럽에서 개최…1년만에 유관중으로 전환</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- tv -->
+                    <ul class="tv"> 
+                        <li>
+                            <a href="">
+                                <h4 class="h4">[현대자동차 X 언차티드] Car Wash 비하인드 씬</h4>
+                                <p class="p">- 투싼 Beast 컨셉트카가 신스틸러로 등장하는 영화 [언차티드]가 2월 16일 개봉합니다</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h4 class="h4">기아 니로 알아보기 - 헤드업 디스플레이 </h4>
+                                <p class="p">- 알아두면 편리한 내차 사용설명서, 기아 니로의 헤드업 디스플레이에 대해 알아보세요</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- SNS -->
+                <div class="sns"> 
+                    <section class="sns">
+                        <h3 class="h2">현대자동차그룹 SNS</h3>
+                        <ul>
+                            <li><a href="">페이스북<span class="count">1,600,911<em>Page likes</em></span></a></li>
+                            <li><a href="">페이스북 저널<span class="count">79,250<em>Page likes</em></span></a></li>
+                            <li><a href="">트위터<span class="count">480,724<em>Fllowers</em></span></a></li>
+                            <li><a href="">인스타그램<span class="count">334,942<em>Fllowers</em></span></a></li>
+                            <li><a href="">유튜브<span class="count">319,297,825<em>Views</em></span></a></li>
+                            <li><a href="">네이버 블로그<span class="count">13,206,285<em>Views</em></span></a></li>
+                            <li><a href="">네이버 포스트<span class="count">18,163,657<em>Views</em></span></a></li>
+                            <li><a href="">네이버 TV<span class="count">6,770,073<em>Views</em></span></a></li>
+                            <li><a href="">카카오 TV<span class="count">3,329,368<em>Views</em></span></a></li>
+                            <li><a href="">브런치<span class="count">2,058,277<em>Views</em></span></a></li>
+                        </ul>
+                    </section>
+                    <a href="">
+                        <p class="p">현대자동차그룹 SNS 더보기 ></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <!-- 연관콘텐츠 -->
+        <section id="top">
+            <div class="wrap">
+                <h2 class="h2">연관콘텐츠</h2>
+                <ul>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">"K8, 메리디안으로 하이엔드 카의 시대를 열다"</h3>
+                            <p class="date">2022/02/08<em>기아</em></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">현대자동차, 메타모빌리티를 통해 이동 경험의 영역을 확장하다</h3>
+                            <p class="date">2022/10/05<em>현대자동차</em></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">기아 EV6, 독일 3대 자동차 전문지의 스포트라이트를 한... </h3>
+                            <p class="date">2021/12/29<em>기아</em></p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h3 class="h3">현대자동차·기아·제네시스 2021 서울모빌리티쇼 참가</h3>
+                            <p class="date">2021/11/25<em>현대자동차그룹</em></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- 하단하단 -->
+        <section id="bottom">
+            <div class="wrap">
+                <div class="top">
+                    <ul class="fnb">
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">개인정보 처리방침</a></li>
+                        <li><a href="">법적고지</a></li>
+                        <li><a href="">웹접근성안내</a></li>
+                        <li><a href="">뉴스레터신청</a></li>
+                        <li><a href="">RSS feeds</a></li>
+                        <li><a href="">사이트맵</a></li>
+                        <li><a href="">찾아오시는길</a></li>
+                    </ul>
+                    <ul class="lang">
+                        <li><a href="">KOR</a></li>
+                        <li><a href="">ENG</a></li>
+                    </ul>
+                    <select name="그룹사 바로가기" id="그룹사 바로가기">
+                        <option value="그룹사 바로가기">그룹사 바로가기</option>
+                    </select>
+                    <p class="copy">COPYRIGHT 2022 HYUNDAI MOTOR GROUP, ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="bottom">
+                    <ul class="sns">
+                        <li><a href="">페이스북</a></li>
+                        <li><a href="">페이스북 저널</a></li>
+                        <li><a href="">트위터</a></li>
+                        <li><a href="">인스타그램</a></li>
+                        <li><a href="">유튜브</a></li>
+                        <li><a href="">네이버 블로그</a></li>
+                        <li><a href="">네이버 포스트</a></li>
+                        <li><a href="">네이버 TV</a></li>
+                        <li><a href="">카카오 TV</a></li>
+                        <li><a href="">브런치</a></li>
+                    </ul>
+                </div>
+                <div class="icon">
+                    <ul>
+                        <li><a href="">국가공인마크</a></li>
+                        <li>인터넷 소통대상 인증마크</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
